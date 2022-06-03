@@ -1,0 +1,47 @@
+.quality {
+    margin-top: 200px;
+
+    &__inner-container {
+    }
+    
+    &__container {
+        border-radius: 10px;
+        background-color: $dark-grey;
+        display: flex;
+        justify-content: space-between;
+        padding: 88px 85px;
+        color: $cream;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: $pink;
+            color: $dark-cyan;
+        }
+    }
+
+    &__wrapper {
+        width: 540px;
+    }
+    
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        opacity: 0.8;
+    }
+
+    &__img {
+        margin-top: -176px;
+        width: 445px;
+        height: 474px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
